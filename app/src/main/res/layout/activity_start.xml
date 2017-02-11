@@ -36,7 +36,8 @@
         android:text="Нажимая на кнопку подключить, вы даете согласие на обработку ваших данных."
         android:textSize="14sp" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
+        app:backgroundTint = "#00aeef"
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
